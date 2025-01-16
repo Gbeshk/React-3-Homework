@@ -2,7 +2,7 @@ import React from "react";
 import AtomResult from "../atomresult/atomresult";
 import AtomScore from "../atomscore/atomscore";
 import AtomComment from "../atomcomment/atomcomment";
-import "./molecuLeft.css";
+import "./moleculeft.css";
 function MolecuLeft() {
   return (
     <>
