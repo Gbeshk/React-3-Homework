@@ -1,6 +1,5 @@
 import React from "react";
 import "./atomscore.css";
-import oval from "../../assets/images/oval.svg";
 function AtomScore() {
   return (
     <>
