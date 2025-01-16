@@ -1,0 +1,14 @@
+.summary {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 38px;
+}
+@media (max-width: 755px) {
+  .summary {
+    font-size: 18px;
+    margin-top: 24px;
+  }
+}

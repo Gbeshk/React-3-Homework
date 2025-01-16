@@ -1,0 +1,40 @@
+.visual {
+  color: var(--Blue, #1125d6);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.visualscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 99px;
+}
+.visualtotalscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+.visualicon {
+  margin-left: 16px;
+}
+@media (max-width: 755px) {
+  .visual {
+    font-size: 16px;
+  }
+  .visualscore {
+    font-size: 16px;
+    margin-left: 143px;
+  }
+  .visualtotalscore {
+    font-size: 16px;
+  }
+}

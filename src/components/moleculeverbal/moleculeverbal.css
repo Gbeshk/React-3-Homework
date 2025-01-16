@@ -1,0 +1,25 @@
+.verbaldiv {
+  display: flex;
+  max-width: 288px;
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
+  align-items: center;
+  margin-top: 14px;
+}
+@media (max-width: 755px) {
+  .verbaldiv {
+    margin-top: 8px;
+    max-width: 315px;
+    width: 100%;
+  }
+}

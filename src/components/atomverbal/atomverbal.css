@@ -1,0 +1,40 @@
+.verbal {
+  color: var(--Green, #00bb8f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.verbalscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 99px;
+}
+.verbaltotalscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+.verbalicon {
+  margin-left: 16px;
+}
+@media (max-width: 755px) {
+  .verbal {
+    font-size: 16px;
+  }
+  .verbalscore {
+    font-size: 16px;
+    margin-left: 139px;
+  }
+  .verbaltotalscore {
+    font-size: 16px;
+  }
+}

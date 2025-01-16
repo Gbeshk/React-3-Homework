@@ -1,0 +1,40 @@
+.reaction {
+  color: var(--Red, #f55);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.reactionscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 81px;
+}
+.reactiontotalscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+.reactionicon {
+  margin-left: 16px;
+}
+@media (max-width: 755px) {
+  .reaction {
+    font-size: 16px;
+  }
+  .reactionscore {
+    font-size: 16px;
+    margin-left: 124px;
+  }
+  .reactiontotalscore {
+    font-size: 16px;
+  }
+}

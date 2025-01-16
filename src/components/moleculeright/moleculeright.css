@@ -1,0 +1,9 @@
+.rightdiv {
+  width: auto;
+  margin-left: 40px;
+}
+@media (max-width: 755px) {
+  .rightdiv {
+    margin-left: 32px;
+  }
+}

@@ -1,0 +1,42 @@
+.scorediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  background-color: hsla(256, 71%, 46%, 1);
+  border-radius: 50%;
+  margin-top: 35px;
+  flex-shrink: 0;
+}
+.myscore {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+}
+.totalscore {
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5168;
+}
+@media (max-width: 755px) {
+  .scorediv {
+    width: 140px;
+    height: 140px;
+    margin-top: 24px;
+  }
+  .myscore {
+    font-size: 56px;
+  }
+  .totalscore {
+    font-size: 16px;
+  }
+}

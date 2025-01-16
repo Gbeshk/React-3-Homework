@@ -1,0 +1,41 @@
+.memory {
+  color: var(--Yellow, #ffb21e);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.memoryscore {
+  color: var(--Dark-Navy, #303b59);
+  text-align: right;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 84px;
+}
+.memorytotalscore {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+.memoryicon {
+  margin-left: 16px;
+}
+@media (max-width: 755px) {
+  .memory {
+    font-size: 16px;
+  }
+  .memoryscore {
+    font-size: 16px;
+    margin-left: 127px;
+  }
+  .memorytotalscore {
+    font-size: 16px;
+  }
+}

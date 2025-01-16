@@ -1,0 +1,27 @@
+.continuediv {
+  width: 288px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 128px;
+  background: var(--Dark-Navy, #303b59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 41px;
+  cursor: pointer;
+  transition: 2s;
+}
+.continuediv:hover {
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+}
+@media (max-width: 755px) {
+  .continuediv {
+    width: 315px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-top: 24px;
+  }
+}

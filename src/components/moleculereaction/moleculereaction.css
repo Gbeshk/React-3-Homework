@@ -1,0 +1,25 @@
+.reactiondiv {
+  display: flex;
+  max-width: 288px;
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  background: var(
+    --red-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55
+  );
+  align-items: center;
+  margin-top: 28px;
+}
+@media (max-width: 755px) {
+  .reactiondiv {
+    margin-top: 24px;
+    max-width: 315px;
+    width: 100%;
+  }
+}
