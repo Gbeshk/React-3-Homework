@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
 }
-body {
+#root {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ body {
   color: #888;
 } */
 @media (max-width: 755px) {
-  body {
+  #root {
     height: auto;
   }
 }
